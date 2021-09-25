@@ -37,6 +37,19 @@ body {
   font-family: Montserrat, sans-serif;
 }
 /* ------------------------------Navigation---------------------------------- */
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  width: 200px;
+  height: 45px;
+  background: #4985ff;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  border: none;
+  color: var(--second-text-color);
+  cursor: pointer;
+}
 
 .header {
   background-color: gray;
@@ -59,4 +72,28 @@ body {
 
 .nav-list-item:not(:last-child) {
   margin-right: 40px;
+}
+
+.hero {
+  background-color: gray;
+  padding-top: 319px;
+  padding-bottom: 335px;
+  text-align: center;
+}
+
+.hero-pretext {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--main-title-color);
+  margin-bottom: 20px;
+}
+
+.hero-title {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 1.3;
+  color: var(--main-title-color);
+  max-width: 829px;
+  margin: 0 auto 50px;
 }
