@@ -11,6 +11,7 @@
   --main-text-color: #999999;
   --second-text-color: #ffffff;
   --accent-color: #4985ff;
+  --background-color: #f6f6f8;
 }
 
 p,
@@ -154,4 +155,56 @@ body {
 .servise-btn {
   display: block;
   margin: 0 auto;
+}
+/* ------------------- about-us ------------------- */
+.about-us-flex {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 90px;
+  margin-bottom: 70px;
+  align-items: center;
+}
+.about-us {
+  padding-top: 100px;
+  padding-bottom: 70px;
+  background-color: var(--background-color);
+}
+.about-us-content {
+  max-width: 489px;
+}
+.about-us-title {
+  color: var(--second-title-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(53 / 36);
+  margin-bottom: 40px;
+}
+.about-us-text {
+  color: var(--main-text-color);
+  font-size: 16px;
+  line-height: calc(25 / 16);
+  margin-bottom: 30px;
+}
+.about-us-link {
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+}
+.about-us-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.about-us-item {
+}
+.about-us-count {
+  font-size: 36px;
+  line-height: calc(53 / 36);
+  color: #000000;
+}
+.about-us-item-text {
+  color: var(--main-text-color);
+  font-size: 16px;
+  line-height: 25px;
 }
